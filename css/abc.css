@@ -10,7 +10,7 @@ body {
   width: 70%;
   color: #eee;
   background-color: black;
-  margin: 2cm 6cm;
+  margin: 2cm auto 2cm auto;
   border: 2px double gray;
   padding-bottom: 90px;
 }
@@ -30,11 +30,11 @@ img {
 }
 
 h3 {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 
