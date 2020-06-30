@@ -1,38 +1,88 @@
 
-body {
-  background-image: url('https://img.wallpapersafari.com/desktop/1280/1024/98/18/KIWvBe.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+body{
+    background-image: url('https://img.wallpapersafari.com/desktop/1280/1024/98/18/KIWvBe.jpg');
+    background-attachment: fixed;
+    background-repeat : no-repeat;
+    background-size : cover;
+
 }
 
-#c {
-  display: block;
-  width: 70%;
-  color: #eee;
-  background-color: black;
-  margin: 2cm auto 2cm auto;
-  border: 2px double gray;
-  padding-bottom: 90px;
+#c{
+    display:block;
+    width:70%;
+    color:#eee;
+    background-color:black;
+    margin:2cm auto 2cm auto;
+    border: 2px double gray;
+    padding-bottom: 90px;
+    
 }
-
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
 }
 
-#b {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
+#b{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 300px;
 }
+
 
 h3 {
-  font-weight: bold;
+    font-weight: bold;
+    text-align:center;
 }
+
+
+a {
+    text-decoration: underline;
+    color:white;
+    &:hover {
+        color:green;
+    }
+}
+body{
+    background-image: url('https://img.wallpapersafari.com/desktop/1280/1024/98/18/KIWvBe.jpg');
+    background-attachment: fixed;
+    background-repeat : no-repeat;
+    background-size : cover;
+
+}
+
+#c{
+    display:block;
+    width:70%;
+    color:#eee;
+    background-color:black;
+    margin:2cm auto 2cm auto;
+    border: 2px double gray;
+    padding-bottom: 90px;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+
+#b{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 300px;
+}
+
+
+h3 {
+    font-weight: bold;
+    text-align:center;
+}
+
 
 a {
     text-decoration: underline;
