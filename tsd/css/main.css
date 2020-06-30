@@ -9,7 +9,6 @@ body {
     padding-top: 5mm;
     padding-bottom:5mm;
     color:rgb(125, 62, 62);
-    
     margin-top: 1mm;
     border-bottom: 2px solid rgb(33, 166, 207);
     text-align:center;
@@ -129,6 +128,6 @@ body {
 }
 #reference {
  position: relative;
- bottom: 165px;
- left: 20.3cm;
+ bottom: 120px;
+ left: 2.6cm;
 }
